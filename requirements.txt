@@ -214,7 +214,6 @@ Scrapy==2.6.2
 Send2Trash==1.8.0
 service-identity==18.1.0
 setuptools==63.4.1
-sip==4.19.13
 six==1.16.0
 smart-open==5.2.1
 sniffio==1.2.0
