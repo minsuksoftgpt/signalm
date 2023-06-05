@@ -28,9 +28,8 @@ def usstock():
     day = timedelta(90)
 
     # Get the data from https://www.nasdaq.com/market-activity/stocks/screener
-    Base_path = "C:\\Users\\ms.sohn\\Desktop\\PythonReg\\6_YN_download_italy_v1.py_181106\\"
-    file = "major_list.csv"
-    Excel_data = pd.read_csv(join(Base_path, file))
+        file = "major_list.csv"
+    Excel_data = pd.read_csv(file)
 
     stocklist = []
     stocklist_df = []
